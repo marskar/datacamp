@@ -2,7 +2,7 @@ The course I most recently completed on DataCamp was "Intro to Python for Data S
 
 Since Fall 2017, I have assigned "Intro to Python for Data Science" as homework to all students taking the Introduction to Python (BIOF309) course (https://github.com/marskar/biof309_fall2018) I teach at the Foundation for Advanced Education in the Sciences (FAES).
 
-About a month into the Fall 2017 semester, the DataCamp mobile app was released with a mobile version of "Intro to Python for Data Science". Since then, I have recommended that everyone learning Python complete the both the desktop and mobile versions of "Intro to Python for Data Science".
+About a month into the Fall 2017 semester, the DataCamp mobile app was released with a mobile version of "Intro to Python for Data Science". Since then, I have recommended that everyone learning Python complete both the desktop and mobile versions of "Intro to Python for Data Science".
 
 I greatly appreciate that this and other DataCamp courses are made freely available to students thanks to the "DataCamp for the Classroom" initiative!
 
