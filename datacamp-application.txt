@@ -1,4 +1,4 @@
-The course I most recently completed on DataCamp was "Intro to Python for Data Science".
+The course I most recently completed on DataCamp was "Intro to Python for Data Science". Out of the 7 DataCamp courses I have completed, this one is my favorite.
 
 Since Fall 2017, I have assigned "Intro to Python for Data Science" as homework to all students taking the Introduction to Python (BIOF309) course (https://github.com/marskar/biof309_fall2018) I teach at the Foundation for Advanced Education in the Sciences (FAES).
 
