@@ -1,29 +1,15 @@
-The course I most recently completed on DataCamp was Intro to Python for Data Science. I was checking out the course to see how well the material fit with the Intro to Python class I teach at the Foundation for Advanced Education in the Sciences (FAES). For the past two semesters, I have assigned this course as homework to all of my students. Since the DataCamp mobile app was released, I have also recommended that students complete the mobile version of Intro to Python for Data Science in addition to the desktop version. I greatly appreciate that this and other courses are made freely available to my students thanks to the "DataCamp for the Classroom" initiative.
+The course I most recently completed on DataCamp was "Intro to Python for Data Science". I was comparing this course to the Introduction to Python (BIOF309) course (https://github.com/marskar/biof309_fall2018) I teach at the Foundation for Advanced Education in the Sciences (FAES).
 
-I really like how the Intro to Python for Data Science course brings my students up to speed with Python, in particular by teaching them to interact with a python script by sending lines of code to an IPython console. I believe it is important to build up basic workflow skills along with essential programming language concepts from the very beginning. In fact, I focus on how to run Python code in several different Integrated Development Environments (IDEs) in the first class of the FAES Intro to Python course.
+For the past two semesters, I have assigned "Intro to Python for Data Science" as homework to all BIOF309 students, and plan to continue doing so this Fall 2018 semester. Since the DataCamp mobile app was released, I have also recommended that everyone learning Python complete the mobile version of "Intro to Python for Data Science" in addition to the desktop version. I greatly appreciate that this and other courses are made freely available to students thanks to the "DataCamp for the Classroom" initiative!
 
-I also like that functions, modules, and packages are introduced early on in Intro to Python for Data Science, before loops, logic, control flow and filtering in Intermediate Python for Data Science. Intro to Python for Data Science does a great job of explaining the logic behind why packages are divided into modules and why Python does not include every function as a builtin. In fact, the only thing I would have done differently would have been to introduce the idea of importing user-defined functions from python scripts in the local file system.
+I really like how the "Intro to Python for Data Science" course brings learners up to speed with Python, in particular by teaching them to interact with a python script by sending lines of code to an IPython console. Based on my experiences teaching Python and R, I know it is important to build up basic workflow skills along with essential programming language concepts from the very beginning. In fact, I focus on how to run Python code in several different Integrated Development Environments (IDEs) in the first class of my Intro to Python course at FAES.
 
-This concept could very easily fit within the math module examples. For example, learners could first define a function that returns the square of any numeric value.
+I also like that functions, modules, and packages are introduced early on in Intro to Python for Data Science, before loops, logic, control flow and filtering in Intermediate Python for Data Science. Intro to Python for Data Science does a great job of explaining the logic behind why packages are divided into modules and why Python does not include every function as a builtin. In fact, the only thing I would have done differently would have been to introduce the idea of importing user-defined functions from python scripts in the local file system. In essence, learners should understand the principle of modularity and how to apply it to their own code. 
 
-def square(x):
-    return x**2
+This concept could very easily fit within the math module examples in the Functions and Packages chapter. For example, learners could first define a function that returns the cube of any number. Then, the description for the next exercise could say that the cube function is saved in a module called cube.py that is located in the current working directory. The exercise learners could then compare the cube and math.pow functions (take a look at the example here https://github.com/marskar/biof309_fall2018/blob/master/cube/cube-vs-pow.py, try out an interactive version using Binder https://mybinder.org/v2/gh/marskar/biof309_fall2018/master?filepath=cube/cube.ipynb).
 
-Then, the  description for the next exercise could say that the square function is saved in a module called square.py that is located in the current working directory. Learners could then compare the square and math.pow functions.
+This simple example does not add much additional cognitive burden and empowers learners by showing them that writing and importing their own modules can be easy. It makes the gap between Python users and a Python developers seems less insurmountable!
 
-from square import square 
-from math import pow
-x, y = 3, 2
-square(x) # returns 9
-math.pow(x, 2) # returns 9.0
-pow(3, 2) == square(3) # returns True
-
-This simple example shows learners that by writing and importing their own modules is easy. It makes the divide between Python users and a Python developers seems less insurmountable! There is no need to discuss the file system, package organization, and __init__.py files this early on. These concepts would introduce unneeded cognitive burden to the Functions and Packages Chapter
-
-, saving the DataCamp interface I believe that modularity
-I believe that the ease with which Python modules can be written and imported empowers learners with the idea that they can become Python developers by writing and importing their own modules. Another benefit of something that needs to be emphasized to reinforce the concept of modularity. It is very important for students to understand why packages consist of. The overview of Ideally, every step in a data analysis will saved as a separate python script while ZThis is important for data analysis, because that leads students to separate out their code into multiple scripts rather including everything in one monolith script.
-
-I noticed you just released a Python Setup 
 Exploratory Data Analysis in Python, Data Engineering for Data Scientists in Python, Feature engineering in Python, Interactive Python Dashboards, Intro to Tensorflow API in Python, Intro to PyTorch, Introduction to AI in Python, Introduction to Data Analysis (Science) in Python, Software Engineering for Data Scientists in Python, Writing Efficient Python Code, Object-oriented programming in Python, Functional programming in Python
 
 Chester Ismay (@old_man_chester), David Robinson (@drob) and Erin LeDell (@ledell) tweeted about this opportunity: https://twitter.com/old_man_chester/status/1026923294283329536 https://twitter.com/drob/status/1030105227767308294 https://twitter.com/ledell/status/1029797077239226369
