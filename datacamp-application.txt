@@ -27,4 +27,20 @@ The trade-off is that this deceptively simple example greatly adds to the cognit
 
 Exploratory Data Analysis in Python, Creating Robust Python Projects, Data Engineering for Data Scientists in Python, Dimensionality Reduction in Python, Feature engineering in Python, Interactive Python Dashboards, Intro to Tensorflow API in Python, Intro to PyTorch, Introduction to AI in Python, Introduction to Data Analysis (Science) in Python, Software Engineering for Data Scientists in Python, Writing Efficient Python Code, Object-oriented programming in Python, Functional programming in Python
 
-I saw tweets by Chester Ismay (@old_man_chester), David Robinson (@drob), Hugo Bowne-Anderson, and Erin LeDell (@ledell): https://twitter.com/old_man_chester/status/1034519529911513088 https://twitter.com/old_man_chester/status/1026923294283329536 https://twitter.com/drob/status/1030105227767308294 https://twitter.com/hugobowne/status/1034520067197886466 https://twitter.com/ledell/status/1029797077239226369
+I submitted an application to become a @DataCamp instructor!
+I was considering for a long time, but these tweets finally convinced me.
+ https://twitter.com/old_man_chester/status/1034519529911513088
+ https://twitter.com/old_man_chester/status/1026923294283329536
+ https://twitter.com/drob/status/1030105227767308294
+ https://twitter.com/hugobowne/status/1034520067197886466 and
+ https://twitter.com/ledell/status/1029797077239226369
+
+Thank you
+Chester Ismay @old_man_chester
+David Robinson @drob
+Hugo Bowne-Anderson @hugobowne
+Erin LeDell @ledell
+for your words of encouragement and
+for spreading the word about this wonderful opportunity!
+
+
