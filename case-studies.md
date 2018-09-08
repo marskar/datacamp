@@ -1,8 +1,6 @@
-# Creating Robust Python Projects
+## Chapter 1: Not mtcars AGAIN
 
-## Chapter 1: Beyond `.py` scripts
-
-* Lesson 1.1 - Introduction to a typical Python project
+* Lesson 1.1 - Introduction to the course
   * Regression and classification
   * Approaching new datasets
 * Lesson 1.2 - Fuel efficiency in 2018
@@ -51,5 +49,4 @@
   * (maybe will try gbm?)
 * Lesson 4.4 - Evaluating your models
   * RMSE
-
 
