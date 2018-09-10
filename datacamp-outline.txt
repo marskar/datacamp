@@ -1,6 +1,6 @@
 # Creating Robust Python Projects
 
-## Chapter 1: Beyond `.py` scripts: Python projects are more than just code files!
+## Chapter 1: Beyond `.py` and `.ipynb`: Python projects are more than just code files!
 
 * Lesson 1.1 - Python project principles
     * Learning objective: Understand modularization, i.e. why split up code into modules? Python `import` statement, code reusability, avoiding monolith programs, e.g. a single Jupyter notebook with all code and documentation.
@@ -8,12 +8,23 @@
     * Learning objective: Understand the Python packaging ecosystem, i.e. how can my code fit into the grander scheme of things? PyPI and pip (with a nod to conda-forge and conda), dependency management (requirements.txt), virtual environments (pipenv)
 
 
-* Lesson 1.2 - Introduction to a typical Python project
-    * Learning objective: Understand the structure of a typical Python project, i.e. how can my code fit into the grander scheme of things? PyPI and pip (with a nod to conda-forge and conda), dependency management (requirements.txt), virtual environments (pipenv)
-    - mod1.py
-    - mod2.py
-    - setup.py
-    - requirements.txt
+* Lesson 1.2 - Python data science projects
+    * Learning objective: Understand the structure and individual components of a typical Python project:
+        - raw-data.csv
+        - wrangling.py
+        - clean-data.csv
+        - fig1.py
+        - fig1.png
+        - fig2.py
+        - fig2.png
+        - setup.py
+        - requirements.txt
+        - README.md
+        - LICENSE.txt
+        - module1.py
+        - module2.py
+        - namespace/
+                    - module3.py
 
   * requirements.txt
   * Exploratory data analysis
