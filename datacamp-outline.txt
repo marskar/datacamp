@@ -70,63 +70,20 @@
 │       └── visualize.py
 ```
 
-## Chapter 3 - Reproducibility, virtual environments, and pickles
-* Lesson 3.1 - Dependency management for reproducibility
-* Lesson 3.2 - Virtual environments
-	* Learning objective - Understand why we should use virtual environmentsand a dependency manager. There are (too) many options for virtual environments, including `virtualenv`, `pipenv`, `conda`, and `venv`. The [official Python tutorial](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) [describes `venv` and `virtualenv`, but recommends `pipenv`](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) as a "higher level tool that automatically manages a separate virtual environment for each project and application". Notably, `conda` is both an environment and dependency manager that integrates with the `pip` dependency manager.
-* Lesson 3.3 - Pickles for persistence
-* Lesson 3.4 - git and Github
+## Chapter 3 - Version control, Reproducibility, virtual environments, and pickles
+* Lesson 3.1 - Version control with git
+	* Learning objective - How to use git to version control project files.
+* Lesson 3.2 - Dependency management for reproducibility
+	* Learning objective - How to install specific versions of packages, freeze versions of dependencies, upgrade dependencies using `pip` or `conda`.
+* Lesson 3.3 - Virtual environments
+	* Learning objective - Understand why we should use virtual environmentsand a dependency manager. There are (too) many options for virtual environments, including `virtualenv`, `pipenv`, `conda`, and `venv`. The [official Python tutorial](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) [describes `venv` and `virtualenv`, but recommends `pipenv`](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) as a "higher level tool that automatically manages a separate virtual environment for each project and application". Notably, `conda` is both an environment and dependency manager that integrates with the `pip` dependency manager. This lesson will show how dependencies can be standardized in each environment using a `requirements.txt` file, or `environment.yml` for conda environments.
+* Lesson 3.4 - Pickles for serialization
+	* Learning objective - Understand serialization, i.e. why pickle a Python object? After training a model, it can be serialized, stored as a stream of bytes, using `pickle`. In the cookiecutter for data science template, serialized models are stored in the `models` folder. Later, the model can be unpickled and use again with the need to retrain.
 
 ## Chapter 4 - Reporting
 Lesson 4.1 - Creating Jupyter Notebooks from `.py` and `.md` files using `nbconvert` and `nbformat`.
 Creating R markdown from the pieces YAML, markdown and `py`.
 Slides 
 
-
-
-* What type of models are appropriate?
-* Lesson 1.3 - Training and evaluating models
-  * Splitting data into training and testing sets
-  * Training a model
-  * Evaluating the model
-
-## Chapter 2: Get out the vote
-
-* Lesson 2.1 - Voter attitudes and turnout
-  * Exploratory data analysis
-  * What types of models are appropriate?
-* Lesson 2.2 - Training models
-  * Logistic regression
-  * glmnet
-  * Random forest
-* Lesson 2.3 - Evaluating your models
-  * ROC and AUC
-
-## Chapter 3: Essential copying and pasting from Stack Overflow
-
-* Lesson 3.1 - Stack Overflow Developer Survey
-  * Exploratory data analysis
-  * What types of models are appropriate?
-* Lesson 3.2 - Imputation for missing values
-  * Preparing for modeling
-* Lesson 3.3 - Training models
-  * Logistic regression
-  * Random forest
-* Lesson 3.4 - Evaluating your models
-  * ROC and AUC
-
-## Chapter 4: But what do the nuns think?
-
-* Lesson 4.1 - Survey of Catholic nuns in 1963
-  * Exploratory data analysis
-  * What types of models are appropriate?
-* Lesson 4.2 - Highly correlated variables
-  * Preparing for modeling
-* Lesson 4.3 - Training models
-  * Linear regression
-  * Random forest
-  * (maybe will try gbm?)
-* Lesson 4.4 - Evaluating your models
-  * RMSE
 
 
