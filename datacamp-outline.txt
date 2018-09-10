@@ -4,15 +4,18 @@
 
 * Lesson 1.1 - Python modules
     * Learning objective: Understand modularization, i.e. why split up code into modules? Python `import` statement, code reusability, avoiding monolith programs, e.g. a single Jupyter notebook with all code and documentation.
+
 * Lesson 1.2 - Python packages
     * Learning objective: Understand packaging, i.e. why distribute data science projects in the form of packages? Sharing code, reproducibility, projects will not gain traction unless the code is easily available and well documented, popular projects can inspire others to contribute.
+
 * Lesson 1.3 - Python ecosystem
     * Learning objective: Understand the Python packaging ecosystem, i.e. how can my code fit into the grander scheme of things? PyPI and pip (with a nod to conda-forge and conda), dependency management (requirements.txt), virtual environments (pipenv)
 
 ## Chapter 2: Beyond `.py` and `.ipynb`: Python projects are more than just code files!
 
 * Lesson 2.1 - Directed Acyclic Graphs (DAGs)
-  * Learning objective: A data analysis flows from start to finish and thus can be conceptualized as a directed acyclic graph (DAG). Use `networkx` to create a plot of [data cleaning](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/kod/r-nhanes-cleaning.py) and [analysis](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/kod/r-nhanes-analysis.py).
+  * Learning objective: Conceptualize and visualize a data analysis in the form of directed acyclic graph (DAG). For example, use `networkx` to create a plot of [data cleaning](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-cleaning.png) and [analysis](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-analysis.png). A data analysis flows from start to finish, otherwise we would never finish!. GNU Make is a program that can automate a workflows.
+
 * Lesson 2.2 - Python project templates
     * Learning objective: Understand the structure and individual components of a typical Python project. To get started quickly, use a [cookiecutter](https://drivendata.github.io/cookiecutter-data-science/) template such as the one below:
 
@@ -60,10 +63,12 @@
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 ```
-* Lesson 2.3 - 
+* Lesson 2.3 - Reproducibility and virtual environments
+	* Learning objective - Understand why we should use virtual environmentsand a dependency manager. There are (too) many options for virtual environments, including `virtualenv`, `pipenv`, `conda`, and `venv`. The [official Python tutorial](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) [describes `venv` and `virtualenv`, but recommends `pipenv`](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) as a "higher level tool that automatically manages a separate virtual environment for each project and application". Notably, `conda` is both an environment and dependency manager that integrates with the `pip` dependency manager.
 
-* Lesson 
-  * What type of models are appropriate?
+* Lesson 2.4 - Documentation
+	* Learning objective - Understand that importance of good documentation. Write in Markdown and optionally convert to ReStructuredText (rst) for creation of HTML pages using sphinx and take advantage of the free hosting on [readthedocs](readthedocs.org).
+* What type of models are appropriate?
 * Lesson 1.3 - Training and evaluating models
   * Splitting data into training and testing sets
   * Training a model
