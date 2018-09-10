@@ -80,10 +80,12 @@
 * Lesson 3.4 - Pickles for serialization
 	* Learning objective - Understand serialization, i.e. why pickle a Python object? After training a model, it can be serialized, stored as a stream of bytes, using `pickle`. In the cookiecutter for data science template, serialized models are stored in the `models` folder. Later, the model can be unpickled and use again with the need to retrain.
 
-## Chapter 4 - Reporting
-Lesson 4.1 - Creating Jupyter Notebooks from `.py` and `.md` files using `nbconvert` and `nbformat`.
-Creating R markdown from the pieces YAML, markdown and `py`.
-Slides 
-
-
-
+## Chapter 4 - Reporting, testing and deployment
+* Lesson 4.1 - Jupyter Notebooks
+	* Learning objective - Create Jupyter Notebooks from `.py` and `.md` files using `nbconvert` and `nbformat`. R Markdown can also support python codeand be used to generate reports.
+* Lesson 4.2 - Slideshows
+	* Learning objective - Generate slideshows in various formats using `pandoc`, the `rmarkdown` R package, and `jupyter nbconvert`.
+* Lesson 4.3 - Testing
+	* Learning objective - Learn to introduce tests with `unittest` and `pytest` into the workflow of a Python data science project.
+* Lesson 4.4 - Deployment to PyPI and continuous integration with Travis
+	* Learning objective - Learn the steps required to publish a project to the Python Package Index (PyPI). Additionally, tools like Travis can be used to automate running tests and update deployed projects.
