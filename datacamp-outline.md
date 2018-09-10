@@ -74,6 +74,6 @@
 * Lesson 4.2 - Slideshows
 	* Learning objective - Generate slideshows in various formats (e.g. HTML) using `pandoc`, the `rmarkdown` R package, and `jupyter nbconvert`.
 * Lesson 4.3 - Testing
-	* Learning objective - Learn to introduce tests with `unittest` and `pytest` into the workflow of a Python data science project.
+	* Learning objective - Learn to introduce tests using `unittest`, `doctest`, and `pytest` into the workflow of a Python data science project.
 * Lesson 4.4 - Deployment to PyPI and continuous integration with Travis
 	* Learning objective - Follow the steps required to publish a project to the Python Package Index (PyPI). Additionally, tools like Travis can be used to automate running tests and deploying projects.
