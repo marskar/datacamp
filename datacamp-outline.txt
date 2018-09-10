@@ -14,9 +14,15 @@
 ## Chapter 2: Beyond `.py` and `.ipynb`: Python projects are more than just code files!
 
 * Lesson 2.1 - Directed Acyclic Graphs (DAGs)
-  * Learning objective: Conceptualize and visualize a data analysis in the form of directed acyclic graph (DAG). For example, use `networkx` to create a plot of [data cleaning](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-cleaning.png) and [analysis](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-analysis.png). A data analysis flows from start to finish, otherwise we would never finish!. GNU Make is a program that can automate a workflows.
+	* Learning objective: Conceptualize and visualize a data analysis in the form of directed acyclic graph (DAG). For example, use `networkx` to create a plot of [data cleaning](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-cleaning.png) and [analysis](https://github.com/marskar/nhanes/blob/4022bd25b4baa82af56f25f6b02fd7759b1ee88a/img/nhanes-data-analysis.png). A data analysis flows from start to finish, otherwise it would never finish!.
 
-* Lesson 2.2 - Python project templates
+* Lesson 2.2 - Automation
+    * Learning objective - Plan out a data analysis and avoid repetitive tasks by using an automation tool called GNU Make. Building on the concept of DAGs, data analyses can be turned in pipelines. All of the steps in a pipeline can be executed with a single command. Make also skips source files that have not been updated since the last time `make` was invoked. 
+
+* Lesson 2.3 - Documentation
+	* Learning objective - Understand that importance of good documentation. Write in Markdown and optionally convert into ReStructuredText (rst) to generate HTML pages using [sphinx](http://www.sphinx-doc.org/en/master/) and take advantage of the free hosting provided by [readthedocs](readthedocs.org).
+
+* Lesson 2.4 - Python project templates
     * Learning objective: Understand the structure and individual components of a typical Python project. To get started quickly, use a [cookiecutter](https://drivendata.github.io/cookiecutter-data-science/) template such as the one below:
 
 ```
@@ -63,11 +69,21 @@
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 ```
-* Lesson 2.3 - Reproducibility and virtual environments
-	* Learning objective - Understand why we should use virtual environmentsand a dependency manager. There are (too) many options for virtual environments, including `virtualenv`, `pipenv`, `conda`, and `venv`. The [official Python tutorial](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) [describes `venv` and `virtualenv`, but recommends `pipenv`](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) as a "higher level tool that automatically manages a separate virtual environment for each project and application". Notably, `conda` is both an environment and dependency manager that integrates with the `pip` dependency manager.
 
-* Lesson 2.4 - Documentation
-	* Learning objective - Understand that importance of good documentation. Write in Markdown and optionally convert to ReStructuredText (rst) for creation of HTML pages using sphinx and take advantage of the free hosting on [readthedocs](readthedocs.org).
+## Chapter 3 - Reproducibility, virtual environments, and pickles
+* Lesson 3.1 - Dependency management for reproducibility
+* Lesson 3.2 - Virtual environments
+	* Learning objective - Understand why we should use virtual environmentsand a dependency manager. There are (too) many options for virtual environments, including `virtualenv`, `pipenv`, `conda`, and `venv`. The [official Python tutorial](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) [describes `venv` and `virtualenv`, but recommends `pipenv`](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) as a "higher level tool that automatically manages a separate virtual environment for each project and application". Notably, `conda` is both an environment and dependency manager that integrates with the `pip` dependency manager.
+* Lesson 3.3 - Pickles for persistence
+* Lesson 3.4 - git and Github
+
+## Chapter 4 - Reporting
+Lesson 4.1 - Creating Jupyter Notebooks from `.py` and `.md` files using `nbconvert` and `nbformat`.
+Creating R markdown from the pieces YAML, markdown and `py`.
+Slides 
+
+
+
 * What type of models are appropriate?
 * Lesson 1.3 - Training and evaluating models
   * Splitting data into training and testing sets
