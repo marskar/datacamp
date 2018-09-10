@@ -1,11 +1,21 @@
 # Creating Robust Python Projects
 
-## Chapter 1: Beyond `.py` scripts
+## Chapter 1: Beyond `.py` scripts: Python projects are more than just code files!
 
-* Lesson 1.1 - Introduction to a typical Python project
-  * Regression and classification
-  * Approaching new datasets
-* Lesson 1.2 - Fuel efficiency in 2018
+* Lesson 1.1 - Python project principles
+    * Learning objective: Understand modularization, i.e. why split up code into modules? Python `import` statement, code reusability, avoiding monolith programs, e.g. a single Jupyter notebook with all code and documentation.
+    * Learning objective: Understand packaging, i.e. why distribute data science projects in the form of packages? Sharing code, reproducibility, projects will not gain traction unless the code is easily available and well documented, popular projects can inspire others to contribute.
+    * Learning objective: Understand the Python packaging ecosystem, i.e. how can my code fit into the grander scheme of things? PyPI and pip (with a nod to conda-forge and conda), dependency management (requirements.txt), virtual environments (pipenv)
+
+
+* Lesson 1.2 - Introduction to a typical Python project
+    * Learning objective: Understand the structure of a typical Python project, i.e. how can my code fit into the grander scheme of things? PyPI and pip (with a nod to conda-forge and conda), dependency management (requirements.txt), virtual environments (pipenv)
+    - mod1.py
+    - mod2.py
+    - setup.py
+    - requirements.txt
+
+  * requirements.txt
   * Exploratory data analysis
   * What type of models are appropriate?
 * Lesson 1.3 - Training and evaluating models
