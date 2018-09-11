@@ -7,6 +7,8 @@ The final step in your journey is to deploy your project to the [Python Package 
 
 First, we will do a practice run by publishing the project to [TestPyPI](https://packaging.python.org/guides/using-testpypi/).
 
+By following the steps below, you can make your project code `pip` installable!
+
 ## Instructions
 To proceed, we will first need to pip install `setuptools`, `wheel`, and `twine`.
 
