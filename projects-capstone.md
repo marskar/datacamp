@@ -27,7 +27,7 @@ Congratulations! You’ve uploaded your project to PyPI!
 
 ## `pypi.sh`
 
-```python
+```sh
 # install necessary packages
 pip install ______
 # create source archive and built distribution files
@@ -42,5 +42,5 @@ twine upload ______
 pip uninstall ______
 # install the project from PyPI
 pip install ______
-print('Congratulations! You deployed your project to PyPI!')
+echo 'Congratulations! You deployed your project to PyPI!'
 ```
