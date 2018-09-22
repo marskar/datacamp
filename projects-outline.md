@@ -101,18 +101,27 @@
 ```
 
 ## Chapter 4 - Deploying to PyPI
-* Lesson 4.1 - Setting up our project for deployment
-    * Learning objective: Become proficient in the steps need to deploy a project to PyPI
+* Lesson 4.1 - Installing a local project
+    * Learning objective: Become proficient in the steps needed to pip install a local project
     - The `setup.py` file allows us to do many things, such as install our project so that we can use the code everywhere.
-    - Replace the fields in the `setup.py` template and then run `python setup.py install` or `pip install -e .` at the command line.
+    - Replace the fields in the `setup.py` template and then run `pip install -e .` (or `python setup.py install`) at the command line.
     - Now we can use our code everywhere on our computer, including outside the project.
+    - This is useful to test the project before deploying to PyPI.
 - Lesson 4.2 - Making scripts command line executable
-    * Learning objective: Understand the advantage of making a script work in both Python and shell environments
+    * Learning objective: Understand the advantages of scripts that can be used in both Python and shell environments
     - The `argparse` module from the standard library
     - The shebang (`#!`) and `usr/bin/env python`
     - The `chmod` command
     - The `if __name__ == '__main__':` statement
     - The `entry_points` dictionary in `setup.py`
-* Lesson 4.4 - Deployment to PyPI
-	* Learning objective - Follow the steps required to publish a project to the Python Package Index (PyPI).
-
+* Lesson 4.3 - Deployment to PyPI
+	* Learning objective - Become proficient in the steps required to publish a project to the Python Package Index (PyPI).
+    - `pip` install necessary packages
+    - create source archive and built distribution files
+    - upload to TestPyPI
+    - install the project from TestPyPI
+    - confirm that the project code works as expected
+    - uninstall the project
+    - upload to PyPI
+    - install the project from PyPI and test again
+    - Now anyone with an internet connection and a computer can `pip` install our code!
