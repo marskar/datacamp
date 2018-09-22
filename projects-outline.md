@@ -45,7 +45,7 @@
     - Introduce the capstone: deploy a data science project as a package to PyPI.
 * Lesson 3.3 - Automation
     * Learning objective - Plan out a data analysis and avoid repetitive tasks by using an automation tool called [GNU Make](https://www.gnu.org/software/make/).
-    - Building on the concept of DAGs, data analyses can be turned in pipelines.
+    - Building on the concept of DAGs, data analyses can be turned into pipelines.
     - All of the steps in a pipeline can be executed with a single command.
     - GNU Make also skips source files that have not been updated since the last time `make` was invoked, thus avoiding needless computation.
     - Edit a `Makefile` for the project and then invoke `make` to generate the report and slides from the previous chapter.
