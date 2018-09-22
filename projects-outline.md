@@ -40,7 +40,7 @@
 - Lesson 3.2 - Package installation
     * Learning objective: Understand the Python packaging ecosystem, i.e. how can my code fit into the grander scheme of things?
     - Two main ways to install packages: `conda` and `pip`
-    - The best explanation is by Jake VanderPlas: `pip` installs Python packages in any environment, `conda` installs any package in `conda` environments.
+    - The best explanation is by [Jake VanderPlas](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/): `pip` installs Python packages in any environment, `conda` installs any package in `conda` environments.
     -  [PyPI](https://pypi.org/) and `pip` versus [conda-forge](https://conda-forge.org/) and `conda`
     - Introduce the capstone: deploy a data science project as a package to PyPI.
 * Lesson 3.3 - Automation
