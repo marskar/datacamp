@@ -30,7 +30,7 @@
     - Use the markdown from the previous lesson to create an HTML report.
     - Instead of pypandoc in a python environment, we can use pandoc at the command line.
     - Use pandoc to create slides that explain the goals, methods, and results of our analysis.
-## Chapter 3 - Command line tasks
+## Chapter 3 - Shell superpowers
 - Lesson 3.1 - The shell environment
     - Learning objective: Understand that differences between shell and python environments.
     - Python and shell scripting can be done interactively in the terminal.
@@ -101,6 +101,18 @@
 ```
 
 ## Chapter 4 - Deploying to PyPI
-    - The `setup.py` file to 
-* Lesson 4.4 - Deployment to PyPI and continuous integration with Travis
-	* Learning objective - Follow the steps required to publish a project to the Python Package Index (PyPI). Additionally, tools like Travis can be used to automate running tests and deploying projects.
+* Lesson 4.1 - Setting up our project for deployment
+    * Learning objective: Become proficient in the steps need to deploy a project to PyPI
+    - The `setup.py` file allows us to do many things, such as install our project so that we can use the code everywhere.
+    - Replace the fields in the `setup.py` template and then run `python setup.py install` or `pip install -e .` at the command line.
+    - Now we can use our code everywhere on our computer, including outside the project.
+- Lesson 4.2 - Making scripts command line executable
+    * Learning objective: Understand the advantage of making a script work in both Python and shell environments
+    - The `argparse` module from the standard library
+    - The shebang (`#!`) and `usr/bin/env python`
+    - The `chmod` command
+    - The `if __name__ == '__main__':` statement
+    - The `entry_points` dictionary in `setup.py`
+* Lesson 4.4 - Deployment to PyPI
+	* Learning objective - Follow the steps required to publish a project to the Python Package Index (PyPI).
+
