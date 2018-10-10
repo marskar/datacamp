@@ -84,7 +84,7 @@ should be at the top level and will be most useful if it is named __main__.py.
 Double underscores around Python names are pronounced dunder.
 The double underscores indicate that the name is special.
 Python objects that have such names usually have some superpowers. 
-The superpower of `__main__.py` is that
+The superpower of __main__.py is that
 it can be executed from outside of a project using the project name.
 This will work even if the project is zipped!
 
